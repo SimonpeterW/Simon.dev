@@ -91,7 +91,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #ac3206 0%, #f59e68 100%);
+            background: linear-gradient(135deg, #f87509 0%, #f5b183 100%);
             color: white;
             padding: 120px 0 80px;
             text-align: center;
@@ -648,7 +648,7 @@
             </div>
             
         </div>
-        <div class="quote">helo
+        <div class="quote">SLOGAN: Dream in code. Build in life
             <p></p>
         </div>
     </section>
@@ -743,7 +743,7 @@
         <div class="container">
             <div class="projects-header">
                 <h2 class="section-title">Projects</h2>
-                <a href="#" class="view-all">View All →</a>
+                <a href="https://github.com/SimonpeterW" class="view-all">View All →</a>
             </div>
             <div class="projects-grid">
                 <div class="project-card">
@@ -820,12 +820,12 @@
     <footer>
         <div class="container">
             <div class="social-links">
-                <a href="#" title="LinkedIn">in</a>
-                <a href="#" title="GitHub">🏀</a>
-                <a href="#" title="CodeWars">Be</a>
-                <a href="#" title="LeetCode">🐦</a>
-                <a href="#" title="Twitter">🐦</a>
-                <a href="#" title="Instagram">📷</a>
+                <a href="https://www.linkedin.com/in/simonpeterfullstacksoftwareengineer/" title="LinkedIn">in</a>
+                <a href="https://github.com/SimonpeterW" title="GitHub">🏀</a>
+                <a href="https://www.codewars.com/users/simonpeter%20waithaka%20" title="CodeWars">⚔️</a>
+                <a href="https://leetcode.com/u/simon_peter/" title="LeetCode">💻</a>
+                <a href="https://x.com/simonpeterfa" title="Twitter">🐦</a>
+                <a href="https://www.instagram.com/simonpeterfa/" title="Instagram">📷</a>
             </div>
             <p>&copy;2025 SimonPeter.#WANTAM All rights reserved.</p>
         </div>
@@ -909,7 +909,7 @@
         document.querySelectorAll('.project-card').forEach(card => {
             card.addEventListener('click', () => {
                 // In a real implementation, this would open a project detail page
-                alert('Opening project details... (This would navigate to a detailed project page)');
+                alert('Opening project details... Project in Progress- Stay Tuned');
             });
         });
 
@@ -924,6 +924,12 @@
                 heroTitle.textContent += text.charAt(i);
                 i++;
                 setTimeout(typeWriter, 100);
+            } else {
+                setTimeout(()=>{
+                    heroTitle.textContent = '';
+                    i = 0;
+                    typeWriter();
+                }, 3000);
             }
             
         };
