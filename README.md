@@ -2,7 +2,7 @@
 # Hi Cousins
 
 * visit my portfolio - 
-https://simonpeterw.github.io/Simon.dev/
+ https://simonpeterw.github.io/Simon.dev/
 
 # This is my simple portfolio Website 
 # It has 7 parts -> header, footer and 5 sections (hero(home), about, services,projects & contact)

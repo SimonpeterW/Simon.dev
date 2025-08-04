@@ -74,7 +74,7 @@
         //  click handlers for project cards
         document.querySelectorAll('.project-card').forEach(card => {
             card.addEventListener('click', () => {
-                // In a real implementation, this would open a project detail page
+                // Projects are still in progress. will be hosted soon 
                 alert('Opening project details... Project in Progress- Stay Tuned');
             });
         });
@@ -128,7 +128,7 @@
 
         //Media Player
 
-        function playAudio() {
+       /* function playAudio() {
                 const audio = document.getElementById('audioPlayer');
                 const btn = document.getElementById('audioBtn');
                 if (audio.paused) {
@@ -138,7 +138,7 @@
                     audio.pause();
                     btn.textContent = '🎵 Play Audio';
                 }
-            }
+            }*/
 
             function toggleVideo() {
                 const video = document.getElementById('videoPlayer');
