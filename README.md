@@ -12,12 +12,10 @@
 
 #  Features 
 1. Mobile menu toggle
-2. typing effect to hero title
 3. parallax effect to hero section
 4. hover effects to service cards
-5. Form submission (your info get sent to my mail. dirrectly)
+5. Form submission 
 6. the Smoothest scrolling ever
-
 7. Animation on hero ( I call it the galaxy )
 
 
