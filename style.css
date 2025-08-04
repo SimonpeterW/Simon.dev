@@ -83,7 +83,8 @@ nav {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, rgb(185, 70, 3) 0%, rgb(247, 138, 66) 100%);
-    /*gradient vs back-ground image- change @ will*/
+    /*gradient vs back-ground image- 
+    change @ will*/
 
     /*background-image: url(pexels-pixabay-268533.jpg);
             background-size: cover;
