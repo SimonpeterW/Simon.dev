@@ -25,4 +25,3 @@
 # Mimi ni noma si noma 😂
 
 # Since no frameworks allowed when you click copy email- you can copy the email from an error page then Go back 
-# My education background can be seen in the cv - but my current education status is on the website 
