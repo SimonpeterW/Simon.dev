@@ -130,7 +130,7 @@
 
         //Media Player
 
-       /* function playAudio() {
+       function playAudio() {
                 const audio = document.getElementById('audioPlayer');
                 const btn = document.getElementById('audioBtn');
                 if (audio.paused) {
@@ -140,7 +140,7 @@
                     audio.pause();
                     btn.textContent = '🎵 Play Audio';
                 }
-            }*/
+            }
 
             function toggleVideo() {
                 const video = document.getElementById('videoPlayer');
